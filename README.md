@@ -118,7 +118,7 @@ In `Classroom.jsx`, add an `onClick` handler so that when the user clicks the "R
 
 Up to 24 results should be shown per page. Allow the user to switch between pages via numbered paginated items at the bottom of the page (e.g. 1, 2, 3, 4, etc.). Indicate which page the user is currently on by marking that paginated item as active. When any of the search terms are updated, or if the search is reset, return the user to Page 1.
 
-**Note**: You should *dynamically* create the `Pagination.Item` components. As the number of search results update, so should the number of `Pagination.Item`.
+**Note**: You should *dynamically* create the `Pagination.Item` components. As the number of search results update, so should the number of `Pagination.Item`. Make sure to specify a unique `key` for each `Pagination.Item`.
 
 ![](_figures/step8.png)
 
